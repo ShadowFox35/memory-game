@@ -12,6 +12,7 @@
 }
 
 body {
+  background: #3c667ef1;
   margin: 0;
 }
 
@@ -257,7 +258,6 @@ tbody {
   min-width: 575px;
   max-width: 100%;
   height: 100vh;
-  background: #3c667ef1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
