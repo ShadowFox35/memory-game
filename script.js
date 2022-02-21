@@ -13,7 +13,6 @@ class MemoryGame {
   }
 
   rearrangeCards() {
-    console.log('rearrange', this.cards);
     this.cards.forEach((card) => {
       const randomNumber =
         Math.floor(Math.random() * this.cards.length) + 1;
